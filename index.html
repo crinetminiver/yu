@@ -1,0 +1,40 @@
+<html>
+    <head><title>shinchan</title></head>
+    <body><h1>how to write an arrays</h1>
+    <h4 id="a1"></h4>
+    <h4 id="a2"></h4>
+    <h4 id="a3"></h4>
+    <h4 id="a4"></h4>
+    <h4 id="a5"></h4>
+    <h4 id="a6"></h4>
+    <h4 id="a7"></h4>
+    <h4 id="a8"></h4>
+    <h4 id="a9"></h4>
+    <h4 id="a10"></h4>
+    <h4 id="a11"></h4>
+    <script>
+var ser=["thane","navi mumbai","mumbai"];
+document.getElementById("a1").innerHTML=ser;
+document.getElementById("a2").innerHTML=ser[0];
+document.getElementById("a3").innerHTML=ser[1];
+document.getElementById("a4").innerHTML=ser[2];
+document.getElementById("a5").innerHTML=ser;
+ser.sort();
+document.getElementById("a6").innerHTML=ser;
+ser.reverse();
+document.getElementById("a7").innerHTML=ser; 
+ser.unshift("nashik");
+document.getElementById("a8").innerHTML=ser; 
+ser.push("pune");
+document.getElementById("a9").innerHTML=ser;
+var but=[3,5,7,9,1];
+var min=Math.min.apply(Math,but);
+document.getElementById("a10").innerHTML=min;
+var max=Math.max.apply(Math,but);
+document.getElementById("a11").innerHTML=max;
+
+
+
+    </script>
+    </body>
+</html>
